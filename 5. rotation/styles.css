@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background: #d1d1d1;
+}
+header{
+    background: #29487d;
+    padding: 40px 0;
+}
+header h2{
+    color:#fff;
+    text-align: center;
+    margin: 0;
+    font-family: arial;
+    font-size: 48px;
+    text-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+header ul{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header figure figcaption{
+    font-family: helvetica;
+}
+header figure img{
+    width: 64px;
+    transition: .4s all;
+}
+header figure img:hover{
+    transform: rotate(360deg);
+}
